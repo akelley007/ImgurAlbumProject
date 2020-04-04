@@ -45,7 +45,14 @@ class AlbumsListFragment: BaseFragment(),  SwipeRefreshLayout.OnRefreshListener,
             //reset selected album to nothing
             binding.viewModel!!.selectedAlbum.value = null
         }
-        binding.rvAlbums.layoutManager = GridLayoutManager(mActivity, 2)
+
+        if(resources.getBoolean(R.bool.isTablet)){
+            binding.rvAlbums.layoutManager = GridLayoutManager(mActivity, 3)
+        }
+        else{
+            binding.rvAlbums.layoutManager = GridLayoutManager(mActivity, 2)
+        }
+
         adapter = AlbumsListAdapter(mActivity, viewModel)
         binding.rvAlbums.setAdapter(adapter)
 
