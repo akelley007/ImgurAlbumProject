@@ -1,6 +1,8 @@
 # ImgurAlbumProject
 A nifty little project that uses the Imgur API to fetch Albums and Photos!
 
+To browse albums simply enter your search query into the search bar and submit!
+
 This Project was written in Kotlin and utilizes MVVM, LiveData, coroutines, Retrofit, Dagger2, and Jetpack Navigation Components!
 
 I felt this design approach was appropriate because it proves a sleek and clean implementation while working with newer technologies in the industry
