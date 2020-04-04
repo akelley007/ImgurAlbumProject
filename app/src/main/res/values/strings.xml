@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Imgur Album Project</string>
+    <string name="no_albums_selected">No Albums Selected</string>
+    <string name="no_albums_found">No Albums Found</string>
+</resources>
