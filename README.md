@@ -7,6 +7,8 @@ This Project was written in Kotlin and utilizes MVVM, LiveData, coroutines, Retr
 
 I felt this design approach was appropriate because it proves a sleek and clean implementation while working with newer technologies in the industry
 
-This project also uses a 3rd party library for the search bar widget. I decided to include it in the project because i felt it added a fresh feel to the user expeience
+This project also uses two 3rd party libraries. MaterialSearchBar for the search bar widget and Glide for it's asynchronous image loading. 
+
+I decided to include these libraries in the project because I felt the MaterialSearchBar added a fresh feel to the user expeience and Glide is a very useful tool for delegating the asynchronous image loading functionality.
 
 MaterialSearchbar repo url:https://github.com/mancj/MaterialSearchBar
